@@ -8,10 +8,6 @@ import { X } from "lucide-react";
 import { Helmet } from "react-helmet";
 
 const options = [
-  // {
-  //   name: "Home",
-  //   path: "banner",
-  // },
   {
     name: "About Us",
     path: "about",

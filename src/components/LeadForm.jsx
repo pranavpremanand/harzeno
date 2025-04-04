@@ -63,7 +63,7 @@ const LeadForm = () => {
       .finally(() => setSpinner(false));
   };
   return (
-    <div className="flex flex-col gap-4 py-[5rem] px-5 bg-secondary/5">
+    <div id="contact" className="flex flex-col gap-4 py-[5rem] px-5 bg-secondary/5">
       <h2
         data-aos="fade-up"
         className="heading-2 text-center max-w-[55rem] mx-auto"

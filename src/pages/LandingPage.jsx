@@ -68,17 +68,6 @@ const LandingPage = ({ page }) => {
         className="h-screen banner relative text-primary_text"
       >
         <div className="absolute top-0 w-full h-full bg-gradient-to-b from-background via-background/10 to-background">
-          {/* <div className="absolute top-0 w-full h-full bg-gradient-to-b from-background/60 via-[#ffffffb5] to-background/60"> */}
-          {/* <img
-          loading="lazy"
-          src={banner}
-          sizes="(max-width: 600px) 200px, 
-         (max-width: 1200px) 800px, 
-         1200px"
-          className="w-full h-full absolute -z-10 object-cover object-top"
-          alt=""
-        /> */}
-
           <div
             data-aos="fade-up"
             className="wrapper text-center flex flex-col gap-5 justify-center items-center h-full relative z-10"
