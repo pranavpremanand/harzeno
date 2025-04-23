@@ -41,6 +41,7 @@ const ContactForm = () => {
       to: companyDetails.email,
       subject: values.subject,
       body: emailBody,
+      name:"Harzeno"
     };
 
     await fetch("https://send-mail-redirect-boostmysites.vercel.app/send-email", {
